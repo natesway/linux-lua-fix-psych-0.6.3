@@ -32,6 +32,9 @@ jobs:
           sudo apt-get install libvlccore-dev
           sudo apt-get install libvlc-bin
           sudo apt-get install vlc-bin
+          sudo apt-get install glibc-source
+          sudo apt-get install libidn12
+          sudo apt-get install libidn-dev          
           haxelib setup ~/haxelib
           haxelib install hxcpp > /dev/null
           haxelib install lime
@@ -44,7 +47,7 @@ jobs:
           haxelib install flixel-addons
           haxelib install tjson
           haxelib install hxjsonast
-          haxelib install hxCodec 2.6.1
+          haxelib install hxCodec 2.5.1
           haxelib install hxlua
           haxelib install hscript
           haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
